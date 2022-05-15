@@ -1,0 +1,3 @@
+<app-header (menuSelected)="onNavigate($event)"></app-header>
+<app-job *ngIf="loadedMenu ==='job'"></app-job>
+<app-tag *ngIf="loadedMenu ==='tag'"></app-tag>
